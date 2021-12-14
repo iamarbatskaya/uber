@@ -1,0 +1,304 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+* {
+    margin: 0%;
+
+}
+
+.main, .searchline, .container-2, .container-1 {
+    width: 90%;
+    margin: auto;
+}
+header {
+    background: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: -1%;
+    position: fixed;
+    width: 103%;
+    box-shadow: 0 6px 20px -4px gray;
+   
+    
+  
+   
+}
+
+.buttons {
+display: flex;
+    
+}
+
+.logo {
+    width: 10%;
+}
+
+.row-1 {
+    display: flex;
+    justify-content:space-between;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.knopka1 {
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    margin-left: -200%;
+    width: 200%;
+    text-align: center;
+    
+}
+.knopka2 {
+    border: none;
+    background-color: white;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 50%;
+    margin-left: -120%;
+    width: 200%;
+    
+}
+
+.searchline {
+    padding-top: 10%;
+    padding-bottom: 7%;
+    
+
+}
+
+
+
+
+.line {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(117, 117, 117, 1);
+    font-size: 120%;
+}
+
+
+
+
+
+h2 {
+    color: black;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.main-list_body {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.photo {
+    display: block;
+    height: 256px;
+    width: 100%;
+    padding-bottom: 2%;
+    
+   
+  
+}
+
+
+.card:hover .photo {
+	transform: scale(1.05);
+	transition: transform 0.5s ease 0s;}
+
+.card {
+   
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+   
+
+}
+
+.main-list {
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.card p {
+    line-height: 2;
+}
+
+.main-list_title {
+    font-size: 125%;
+    
+    
+}
+
+.row > img {
+    margin: auto;
+}
+
+
+.last {
+    background:  rgba(38, 38, 38, 1);
+    margin-top: 3%;
+
+  
+   
+    
+}
+
+select {
+    background: rgba(59, 59, 59, 1);
+    color: white;
+    text-align: left;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    top: 5%;
+    right: -20%;
+    font-size: 100%;
+    width: 185%;
+    
+    
+   
+    
+
+}
+
+.stolb1>.lang {
+    background: rgba(59, 59, 59, 1);
+    display: inline-flex;
+    padding: 5%;
+    width: 180px;
+    margin-bottom: 10%;
+}
+
+.world {
+    position: relative;
+    left: 3%;
+}
+.logo-2 {
+    padding: 5% 3% 3% 0%;
+    width: 25%;
+}
+
+
+span {
+    color: 
+    rgba(73, 161, 68, 1);
+}
+ .stolb2, .stolb3 {
+    color: white;
+    margin-top: 3%;
+    
+}
+
+.stolb1 {
+    color: white;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+
+
+
+.ubereats {
+    margin-bottom: 10%;
+}
+
+
+
+.social { 
+    margin-right: 5%;
+    
+} 
+
+.row-11 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1%;
+    width: 90%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1.5;
+
+    
+      
+}
+
+
+.stolb2 p {
+    line-height: 300%;
+    
+}
+.stolb3 p {
+    line-height: 300%;
+}
+
+.row-2 {
+display: flex;
+justify-content: center;
+margin-top: 3%;
+padding-bottom: 3%;
+
+
+}
+.row-2 img {
+  margin-left: 2%;
+  width: 15%;
+    
+}
+.row-3 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 90%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 90%;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+@media screen and (max-width:720px) {
+    .row-11 {grid-template-columns: 100%;}
+    .row-3 { display: grid;
+    grid-template-columns: 100%;
+    line-height: 2;
+    font-size: 10px;
+}
+    .stolb3 {margin-top: -1%;}
+    .row-2 img {
+        width: 30%;
+    }
+    .logo-2 {
+        
+        width: 50%;}
+    .photo {
+        height: auto;
+    }
+
+    
+}
